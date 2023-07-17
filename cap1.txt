@@ -1,0 +1,54 @@
+import java.util.Scanner;
+
+// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
+// then press Enter. You can now see whitespace characters in your code.
+public class Lab1 {
+
+    public static void main(String[] args) {
+
+        //Exercitiul 1
+        System.out.println("Imi place Java");
+        //Exercitiul 2
+        System.out.println("Cursul acesta este foarte fain!");
+        System.out.println("Cursul acesta este foarte fain!");
+        System.out.println("Cursul acesta este foarte fain!");
+        System.out.println("Cursul acesta este foarte fain!");
+        System.out.println("Cursul acesta este foarte fain!");
+        System.out.println("Cursul acesta este foarte fain!");
+        //Exercitiul 3
+        int Ana = 24;
+        int David = Ana / 6;
+        System.out.println(David);
+
+        //Exercitiul 4
+        Scanner scan = new Scanner(System.in);
+        String text = scan.nextLine();
+        System.out.println(text);
+        //Exercitiul 5
+        MyVariables();
+        //tipul de acces, tipul returnat , nume metoda(parametri){}
+
+        //Exercitiul 7
+        exercitiul7();
+
+    }
+
+    static void MyVariables() {
+        int a = 10;
+        System.out.println(a);
+        String b = "Ce cald e afara";
+        System.out.println(b);
+        boolean c = true;
+        System.out.println(c);
+    }
+
+    static void exercitiul7() {
+        Scanner scan = new Scanner(System.in);
+        int num = scan.nextInt();
+        System.out.println(num + 5);
+        System.out.println(num - 12.3);
+        System.out.println(num / 4);
+        System.out.println(num % 6);
+
+    }
+}
